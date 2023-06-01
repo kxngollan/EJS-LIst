@@ -17,9 +17,7 @@
             <div class="item">
                 <input type="checkbox">
                 <p><%= listItems[i] %></p>
-                <form action="/delete" method="post">
-                    <button class="delete" type="submit">D</button>
-                </form>
+
                 <% } %>
                 <form class="item" action="/" method="post">
                     <input type="text" name="listItem" placeholder="New Item" autocomplete="off">

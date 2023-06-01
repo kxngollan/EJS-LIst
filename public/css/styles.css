@@ -1,6 +1,5 @@
 html {
-    background-color: #e4e9fd;
-    background-image: -webkit-linear-gradient(45deg, #a683e3 50%, #e4e9fd 50%);
+    background-color: #969090;
     min-height: 1000px;
     font-family: Arial, Helvetica, sans-serif;
   }
@@ -13,13 +12,14 @@ html {
   .box {
     max-width: 25rem;
     margin: 3.125rem auto;
+    padding: 1rem auto;
     background: #fff;
     border-radius: 5px;
     box-shadow: 5px 5px 15px -5px rgb(0, 0, 0, 0.3);
   }
   
   #heading {
-    background-color: #a683e3;
+    background-color: #ffd700;
     text-align: center;
   }
   
@@ -27,6 +27,7 @@ html {
     min-height: 6rem;
     align-items: center;
     border-bottom: 1px solid #f1f1f1;
+    margin-top: 20px;
   }
   
   .item:last-child {
@@ -71,14 +72,14 @@ html {
     width: 3rem;
     border-radius: 50%;
     border-color: transparent;
-    background-color: #a683e3;
+    background-color: #cf8805;
     color: #fff;
     font-size: 2rem;
     padding-bottom: 0.5rem;
   }
   
   input[type="text"] {
-    padding-top: 0.75rem;
+    padding-top: 1rem;
     text-align: center;
     height: 3.75rem;
     top: 0.625rem;

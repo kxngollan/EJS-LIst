@@ -27,15 +27,12 @@ app.get("/", (req, res)=>{
 
 app.post("/", (req,res)=>{
 let item = req.body.listItem;
-listItems.push(item);
+if (item == ""){
+  console.log(item)
+} else {
+listItems.push(item)};
 res.redirect("/");
 });
-
-app.post("/delete", (req, res) => {
-    const index = req.body.index;
-    listItems.splice(index, 1);
-    res.redirect("/");
-  });
 
 
 app.listen(3000, ()=>{
